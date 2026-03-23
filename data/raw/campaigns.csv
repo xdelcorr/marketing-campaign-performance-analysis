@@ -1,51 +1,61 @@
-campaign_id,channel,objective,start_date,end_date,target_segment,expected_uplift
-1,Paid Search,Cross-sell,2021-10-25,2021-11-26,Deal Seekers,0.022
-2,Email,Retention,2021-10-24,2021-12-24,Deal Seekers,0.116
-3,Email,Reactivation,2023-10-08,2023-11-30,Churn Risk,0.1
-4,Display,Reactivation,2022-07-25,2022-10-07,Deal Seekers,0.111
-5,Social,Acquisition,2022-07-09,2022-09-29,New Customers,0.144
-6,Affiliate,Reactivation,2021-10-20,2021-12-03,New Customers,0.087
-7,Paid Search,Cross-sell,2023-07-02,2023-08-10,High Value,0.136
-8,Paid Search,Cross-sell,2021-08-23,2021-09-30,Churn Risk,0.128
-9,Social,Retention,2023-10-09,2023-12-30,All,0.113
-10,Email,Cross-sell,2022-09-01,2022-10-22,Churn Risk,0.034
-11,Affiliate,Reactivation,2022-11-02,2023-01-14,Churn Risk,0.104
-12,Email,Acquisition,2021-01-20,2021-02-21,Churn Risk,0.032
-13,Display,Reactivation,2022-03-19,2022-06-09,Churn Risk,0.063
-14,Email,Retention,2022-09-20,2022-09-29,High Value,0.092
-15,Social,Retention,2022-04-29,2022-05-10,New Customers,0.086
-16,Email,Reactivation,2023-08-10,2023-10-15,All,0.118
-17,Display,Retention,2023-04-05,2023-04-24,High Value,0.14
-18,Affiliate,Retention,2022-10-09,2022-12-07,All,0.139
-19,Affiliate,Acquisition,2021-11-28,2022-01-29,New Customers,0.087
-20,Social,Reactivation,2021-07-26,2021-09-23,New Customers,0.059
-21,Email,Acquisition,2023-02-21,2023-03-27,Churn Risk,0.09
-22,Affiliate,Reactivation,2022-07-02,2022-09-18,High Value,0.038
-23,Paid Search,Retention,2022-10-25,2023-01-19,Deal Seekers,0.107
-24,Display,Acquisition,2021-11-07,2022-01-06,New Customers,0.063
-25,Paid Search,Cross-sell,2021-03-19,2021-04-11,High Value,0.119
-26,Email,Reactivation,2023-08-13,2023-11-01,Deal Seekers,0.037
-27,Display,Retention,2022-04-01,2022-04-11,New Customers,0.057
-28,Affiliate,Acquisition,2021-09-02,2021-09-11,New Customers,0.093
-29,Email,Acquisition,2021-12-26,2022-02-26,New Customers,0.14
-30,Social,Acquisition,2023-11-04,2024-01-06,Deal Seekers,0.052
-31,Affiliate,Cross-sell,2023-10-26,2023-12-03,High Value,0.108
-32,Social,Reactivation,2021-08-05,2021-10-16,Churn Risk,0.051
-33,Display,Cross-sell,2022-02-15,2022-04-18,All,0.1
-34,Email,Reactivation,2023-03-19,2023-05-13,Churn Risk,0.042
-35,Display,Acquisition,2022-11-06,2022-11-26,High Value,0.046
-36,Display,Reactivation,2023-04-03,2023-06-10,Deal Seekers,0.117
-37,Paid Search,Cross-sell,2022-10-20,2022-12-01,Deal Seekers,0.096
-38,Paid Search,Reactivation,2021-12-18,2022-01-31,All,0.065
-39,Affiliate,Retention,2023-03-08,2023-05-11,New Customers,0.108
-40,Display,Cross-sell,2022-07-25,2022-09-07,New Customers,0.105
-41,Social,Retention,2023-04-09,2023-04-17,All,0.058
-42,Paid Search,Retention,2023-04-22,2023-06-29,High Value,0.051
-43,Paid Search,Cross-sell,2023-03-12,2023-04-18,Deal Seekers,0.078
-44,Affiliate,Reactivation,2021-01-31,2021-04-17,All,0.141
-45,Affiliate,Retention,2022-04-08,2022-06-15,Churn Risk,0.114
-46,Social,Cross-sell,2023-03-23,2023-04-17,All,0.03
-47,Affiliate,Cross-sell,2022-04-12,2022-06-04,High Value,0.066
-48,Paid Search,Acquisition,2022-01-05,2022-04-04,New Customers,0.099
-49,Paid Search,Reactivation,2021-04-09,2021-05-24,Deal Seekers,0.128
-50,Email,Retention,2021-02-14,2021-03-24,Churn Risk,0.023
+campaign_id,campaign_name,channel,budget,start_date,end_date,objective,region,status
+C001,Growth_Promo_1,Facebook Ads,14021.64,2025-01-13,2025-03-03,Awareness,CA,Paused
+C002,Winback_Offer_2,Google,10207.4,2025/10/15,11/23/2025,Awareness,CA,active
+C003,Always-On_Launch_3,TikTok,15121.07,2025-05-23,06/25/2025,Conversion,DE,Completed
+C004,Flash_Promo_4,GOOGLE,23423.97,2025/08/24,11/14/2025,Lead Gen,CA,Active
+C005,Always-On_Push_5,Google Ads,9729.55,04/27/2025,2025/06/17,Conversion,CA,Completed
+C006,Winback_Promo_6,TIKTOK,9729.63,2025/04/18,2025/06/05,Traffic,CA,active
+C007,Holiday_Promo_7,YouTube,24091.31,05/19/2025,08/12/2025,Conversion,US,Paused
+C008,Winback_Campaign_8,TikTok,16054.06,2025-04-19,2025/07/05,Lead Gen,DE,Completed
+C009,Growth_Offer_9,youtube,8649.55,2025-10-26,2025-12-30,Traffic,LATAM,Paused
+C010,Flash_Offer_10,youtube,14346.77,2025-02-02,2025/04/06,Awareness,LATAM,PAUSED
+C011,Growth_Campaign_11,Affiliate,8675.79,2025/06/24,07/22/2025,Lead Gen,CA,PAUSED
+C012,Growth_Launch_12,facebook ads,8665.76,2025/06/02,2025-08-19,Lead Gen,UK,active
+C013,Always-On_Launch_13,google ads,12344.69,2025/02/27,2025-04-28,Awareness,LATAM,active
+C014,Flash_Offer_14,facebook ads,4202.18,2025/09/30,10/30/2025,Traffic,DE,Paused
+C015,Retargeting_Campaign_15,Affiliate,4617.19,2025-07-24,09/23/2025,Awareness,DE,PAUSED
+C016,Winback_Promo_16,Email,,2025-04-23,05/07/2025,Awareness,DE,Paused
+C017,Winback_Offer_17,Affiliates,6591.82,09/06/2025,10/17/2025,Traffic,US,Active
+C018,Always-On_Promo_18,YT,12799.02,2025/07/01,2025-09-07,Awareness,AU,Completed
+C019,Flash_Push_19,facebook,6946.46,05/08/2025,2025-06-15,Awareness,AU,PAUSED
+C020,Spring_Push_20,facebook ads,5398.35,01/26/2025,2025-04-19,Retention,US,Paused
+C021,Always-On_Campaign_21,youtube,22761.47,2025/01/02,2025/03/06,Retention,CA,Paused
+C022,Retargeting_Promo_22,Affiliates,9770.39,2025-04-22,2025/05/13,Retention,DE,PAUSED
+C023,Growth_Promo_23,IG,11313.64,2025-01-30,04/19/2025,Awareness,DE,Paused
+C024,Retargeting_Offer_24,GOOGLE,5364.86,2025-02-11,2025/04/19,Conversion,CA,Completed
+C025,Always-On_Promo_25,YouTube,8331.58,2025/03/09,2025-04-30,Awareness,DE,Paused
+C026,Growth_Launch_26,affiliate,11561.79,2025/03/09,2025/05/06,Conversion,DE,PAUSED
+C027,Spring_Push_27,GOOGLE,6151.82,2025-10-11,2025/12/02,Lead Gen,CA,Completed
+C028,Winback_Launch_28,Affiliates,13198.38,2025-04-18,2025-06-14,Retention,UK,Active
+C029,Holiday_Push_29,Google,8100.5,06/20/2025,2025/07/20,Awareness,US,Active
+C030,Retargeting_Offer_30,Instagram,9453.62,2025-10-07,10/25/2025,Conversion,US,Completed
+C031,Retargeting_Campaign_31,E-mail,8096.17,2025-05-08,2025-06-04,Traffic,AU,Active
+C032,Always-On_Push_32,instagram,27615.68,2025/06/20,2025-08-25,Retention,US,active
+C033,Always-On_Push_33,Email,"$10,864.45",2025-04-13,06/24/2025,Conversion,UK,Active
+C034,Always-On_Offer_34,affiliate,6445.55,2025-06-29,09/16/2025,Traffic,DE,Completed
+C035,Winback_Launch_35,Google,16502.59,2025/02/25,2025-05-26,Retention,DE,Paused
+C036,Always-On_Offer_36,Affiliates,,2025/01/23,2025/04/02,Traffic,UK,active
+C037,Spring_Launch_37,FB,12142.07,06/19/2025,08/12/2025,Conversion,DE,Paused
+C038,Growth_Offer_38,E-mail,4105.84,2025/08/04,2025-10-05,Conversion,UK,Paused
+C039,Flash_Push_39,YT,5630.24,2025/10/24,2025-12-18,Awareness,UK,PAUSED
+C040,Growth_Push_40,TikTok,"$12,069.42",2025-02-17,04/02/2025,Lead Gen,US,active
+C041,Flash_Campaign_41,youtube,15823.21,2025/10/22,2025/11/29,Awareness,US,active
+C042,Retargeting_Push_42,Email,11916.56,04/01/2025,2025/06/20,Lead Gen,DE,PAUSED
+C043,Retargeting_Campaign_43,TikTok,10323.48,08/15/2025,11/01/2025,Conversion,CA,Completed
+C044,Winback_Launch_44,LinkedIn,9409.25,05/03/2025,2025/06/21,Awareness,CA,Paused
+C045,Spring_Campaign_45,email,5222.54,07/16/2025,08/18/2025,Awareness,CA,active
+C046,Always-On_Offer_46,youtube,7631.79,10/27/2025,11/12/2025,Retention,AU,PAUSED
+C047,Flash_Promo_47,email,8687.85,2025/09/07,10/19/2025,Traffic,AU,Paused
+C048,Spring_Promo_48,Google,18556.23,07/21/2025,2025-10-18,Awareness,UK,active
+C049,Always-On_Campaign_49,tik tok,12988.36,04/19/2025,06/30/2025,Awareness,AU,Active
+C050,Always-On_Promo_50,Google Ads,4530.01,2025-06-29,2025-08-10,Lead Gen,CA,Paused
+C051,Growth_Campaign_51,IG,12862.12,08/31/2025,2025-09-28,Lead Gen,DE,Active
+C052,Holiday_Offer_52,IG,9022.34,06/09/2025,07/06/2025,Traffic,US,PAUSED
+C053,Retargeting_Promo_53,E-mail,7797.35,02/22/2025,2025/04/15,Retention,LATAM,Completed
+C054,Flash_Campaign_54,Facebook Ads,,09/17/2025,2025/11/13,Retention,LATAM,Paused
+C055,Holiday_Offer_55,YT,18315.44,04/01/2025,06/20/2025,Lead Gen,UK,Completed
+C056,Growth_Campaign_56,E-mail,17424.63,02/14/2025,04/04/2025,Awareness,AU,Completed
+C057,Holiday_Launch_57,instagram,7189.6,2025/09/07,10/18/2025,Lead Gen,US,PAUSED
+C058,Flash_Offer_58,Email,9371.18,2025/02/13,2025/03/29,Retention,AU,Active
+C059,Growth_Launch_59,FB,12908.38,2025/05/31,07/12/2025,Retention,LATAM,PAUSED
+C060,Holiday_Push_60,TikTok,17814.58,06/30/2025,2025-09-10,Lead Gen,LATAM,Paused
